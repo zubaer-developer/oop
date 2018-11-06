@@ -1,7 +1,26 @@
-
-
 <?php
-echo "Hello World!"; 	
+
+class person
+{
+	
+	private $name;
+	private $address;
+	
+	public function dispaly()
+	{
+		
+		$this->name="zubaer";
+		$this->address="Dhaka";
+		echo "Name =".$this->name."Address =".$this->address;
+		
+		
+	}
+	
+}
+
+$person1 = new person;
+$person1->dispaly();
+
+
+	
 ?>
-<h1> This my code</h1>
-<h1> This my code</h1>
